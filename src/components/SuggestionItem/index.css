@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.suggestionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.suggestionText {
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.arrowImg {
+  height: 40px;
+  width: 40px;
+}

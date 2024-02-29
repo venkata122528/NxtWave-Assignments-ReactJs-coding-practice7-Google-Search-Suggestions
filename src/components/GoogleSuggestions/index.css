@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.mainContainer {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.googleLogo {
+  height: 45%;
+  width: 80%;
+  padding: 20px;
+}
+
+.searchHistoryContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  cursor: pointer;
+  outline: none;
+  list-style-type: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchImg {
+  height: 40px;
+  width: 40px;
+}
+
+.inputEl {
+  width: 100%;
+}
